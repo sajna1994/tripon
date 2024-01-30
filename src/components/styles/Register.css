@@ -1,0 +1,36 @@
+.reg:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+  
+}
+.reg{
+    box-shadow: 0 0 40px rgba(218, 108, 18, 0.3); 
+ 
+}
+.btn:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgb(164, 90, 17); 
+  
+  }
+  
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    background: #405D9D;
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+}
+
+.btn-twitter {
+    background: #42AEEC;
+    border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    background: #1799e4;
+}

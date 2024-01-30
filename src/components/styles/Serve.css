@@ -1,0 +1,51 @@
+
+
+.grid-track {
+  display: flex;
+  width: 100%; 
+  animation: scroll 20s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .grid-track {
+    width: 100%;
+  }
+}
+
+.grid-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-90px)); /* Adjust based on your image width and number of images */
+  }
+}
+
+
+.carousel-image {
+  width: 100%;
+  max-width: 230px;
+  padding: 20px;
+  height: 50vh;
+  box-sizing: border-box; /* Include padding in width calculation */
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.image-container:hover .carousel-image {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.service:hover{
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.btn:hover{
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgb(164, 90, 17); 
+
+}

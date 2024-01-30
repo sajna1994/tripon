@@ -1,0 +1,9 @@
+.log:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+  
+}
+.log{
+    box-shadow: 0 0 40px rgba(218, 108, 18, 0.3); 
+ 
+}
